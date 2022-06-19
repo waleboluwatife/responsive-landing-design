@@ -1,0 +1,36 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Poppins:wght@600&family=Rubik:ital,wght@0,500;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Rubik:ital,wght@0,500;0,700;1,400&display=swap");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url('bg-hero-desktop.svg');
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px;
+}
+
+a {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 5px rgba(20, 20, 20, 0.14);
+    border-radius: 50px;
+    color: #00252e;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
