@@ -1,17 +1,22 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Poppins:wght@600&family=Rubik:ital,wght@0,500;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Open+Sans:wght@400;700&family=Poppins:wght@600&family=Rubik:ital,wght@0,500;0,700;1,400&display=swap");
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
+body {
+    width: vw;
+    height: vh;
+}
 main {
     background-image: url('bg-hero-desktop.svg');
     justify-content: center;
     align-items: center;
     font-family: "Open Sans", sans-serif;
+    width: 100%;
 }
 
 header {
@@ -78,9 +83,76 @@ a {
     border-radius: 50px;
     box-shadow: 20px 20px 50px gainsboro;
 }
+.wrapper{
+    width: vw;
+
+}
+
+.card{
+    width: max-width;
+}
+.item1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.card_content {
+    padding: 50px;
+    margin: 50px;
+    width: 500px;
+    height: fit-content;
+    margin-top: 300px;
+}
+.card:hover {
+  transform: scal(1.1);
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    margin:20px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.text {
+    padding: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.container img{
+    padding: 50px;
+}
+.text p {
+    margin-top: 20px;
+}
+.btn{
+    margin: 30px 10px 0px;
+    padding: 20px 50px 20px;
+    background-color:hsl(322, 100%, 66%);
+    border-radius: 50px;
+    color:white;
+    font-weight: bold;
+    font-size: larger;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px gainsboro; 
+    border: none;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+.wrapper .card{
+    box-shadow: 1px 2px 10px gainsboro;
+    border: none;
+    margin: 100px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 50px gainsboro;
+}
 .card_content {
     padding: 50px;
 }
 .card:hover {
   transform: scale(1.1);
 }
+
