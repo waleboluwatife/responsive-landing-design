@@ -10,7 +10,10 @@
 body {
   background-color: white;
 }
-
+body {
+    width: vw;
+    height: vh;
+}
 main {
   background-image: url("bg-hero-desktop.svg");
   justify-content: center;
